@@ -7,6 +7,7 @@ import 'package:dart_data_structure/09-%20tries/test_tries.dart';
 import 'package:dart_data_structure/10-%20binary_search/test_binary_search.dart';
 import 'package:dart_data_structure/11-%20heaps/heaps_test.dart';
 import 'package:dart_data_structure/12-priority_queues/test_priority_queue.dart';
+import 'package:dart_data_structure/13-graphs/test_graphs.dart';
 
 void main(List<String> arguments) {
   // print(big_O
@@ -35,5 +36,12 @@ void main(List<String> arguments) {
 
   // testHeaps();
 
-  testPriorityQueue();
+  // testPriorityQueue();
+
+  print('---------------------- AdjacencyList ----------------------');
+  testGraphsWithAdjacencyList();
+  print('------------------------------------------------------------');
+  print('---------------------- AdjacencyMatrix ----------------------');
+  print('------------------------------------------------------------');
+  testGraphsWithAdjacencyMatrix();
 }

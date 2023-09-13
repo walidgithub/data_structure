@@ -6,7 +6,7 @@ Applications of Stack in problem-solving
 Balanced parenthesis
 
 · Our code editor uses a stack to check if we have closed all our parentheses properly,
- and even to prettify the code. The below code is an example for checking balanced parenthesis.
+ and even to prettify the code.
 
 Backtracking
 
