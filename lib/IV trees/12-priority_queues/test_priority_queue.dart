@@ -1,4 +1,6 @@
-import 'package:dart_data_structure/12-priority_queues/priority_queue.dart';
+
+
+import 'package:dart_data_structure/IV trees/12-priority_queues/priority_queue.dart';
 
 void testPriorityQueue() {
   var priorityQueue = PriorityQueue<num>(

@@ -1,4 +1,5 @@
-import 'package:dart_data_structure/04- queue/queue_class.dart';
+
+import 'package:dart_data_structure/II elemntry%20data%20structure/04-%20queue/queue_class.dart';
 
 void testQueues(){
   // Queues use FIFO(first-in-first-out)

@@ -7,8 +7,6 @@
 // The topmost node in the tree is called the root of the tree. It is the only node that has no parent
 // A node is a leaf if it has no children
 
-import 'package:dart_data_structure/05- trees/queue.dart';
-
 /*
 - Trees share some similarities to linked lists, but,
   whereas linked-list nodes may only link to one successor node,
@@ -19,6 +17,8 @@ import 'package:dart_data_structure/05- trees/queue.dart';
 - Traversals, such as depth-first and level-order traversals, work on multiple types of trees. However,
   the implementation will be slightly different based on how the tree is structured.
  */
+
+import 'package:dart_data_structure/IV trees/05-%20trees/queue.dart';
 
 class TreeNode<T> {
   TreeNode(this.value);

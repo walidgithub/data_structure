@@ -1,7 +1,8 @@
 // Copyright (c) 2022 Razeware LLC
 // For full license & permission details, see LICENSE.
 
-import 'package:dart_data_structure/09-%20tries/trie_class.dart';
+
+import 'package:dart_data_structure/IV trees/09-%20tries/trie_class.dart';
 
 class StringTrie {
   TrieNode<int> root = TrieNode(key: null, parent: null);
