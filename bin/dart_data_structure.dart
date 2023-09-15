@@ -1,6 +1,4 @@
-
-
-import 'package:dart_data_structure/V%20graphs/22-Breadth-First%20Search/test_breadth_first_search.dart';
+import 'package:dart_data_structure/V%20graphs/23-%20depth_first_search/test_depth_first_search.dart';
 
 void main(List<String> arguments) {
   // print(big_O
@@ -38,5 +36,7 @@ void main(List<String> arguments) {
   // print('------------------------------------------------------------');
   // testGraphsWithAdjacencyMatrix();
 
-  testBreadthFirstSearch();
+  // testBreadthFirstSearch();
+
+  testDepthFirstSearchAndCycles();
 }
