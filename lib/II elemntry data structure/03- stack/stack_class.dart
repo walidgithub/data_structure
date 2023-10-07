@@ -14,9 +14,7 @@ Backtracking
  This happens often in artificial intelligence applications: games, logic programs, theorem provers, etc.
 
 Think of walking through a maze. Whenever you have options to move in more than one direction,
- push all but one of the options
-
-onto the stack and then go in the direction you didn’t push.
+ push all but one of the options onto the stack and then go in the direction you didn't push.
  When you run into a dead end, walk backwards to your last option (i.e. pop the stack) and proceed from there.
 
 Activation records
@@ -48,7 +46,8 @@ In browsers
 // Memory allocation uses stacks at the architectural level. Memory for local variables is also managed using a stack
 
 // ** recursion function uses stack
-// Programming languages that support recursion manage the function calls with a stack. If you accidentally write an infinite recursion, you’ll get a stack overflow.
+// Programming languages that support recursion manage the function calls with a stack.
+// If you accidentally write an infinite recursion, you’ll get a stack overflow.
 
 
 // ** Search and conquer algorithms, such as finding a path out of a maze, use stacks to facilitate backtracking.

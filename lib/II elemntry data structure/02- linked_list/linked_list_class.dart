@@ -62,7 +62,7 @@ class LinkedList<E> extends Iterable<E> {
   // Inserting in Middle of a List
   // 2 steps
 
-  // Big O O(i)
+  // Big O O(1)
   // 1- find particular node
   Node<E>? nodeAt(int index) {
     // 1
@@ -141,7 +141,7 @@ class LinkedList<E> extends Iterable<E> {
 }
 
 // create iterator
-// we added  extends Iterable<E> to help us making iterator
+// we added implements Iterable<E> to help us making iterator
 class _LinkedListIterator<E> implements Iterator<E> {
   _LinkedListIterator(LinkedList<E> list) : _list = list;
   final LinkedList<E> _list;
