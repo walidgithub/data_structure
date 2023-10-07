@@ -15,8 +15,8 @@ class BinaryNode<T> {
   BinaryNode<T>? leftChild;
   BinaryNode<T>? rightChild;
 
-  // traverse trees in order
-
+  // traverse nodes in order (from bigger to smaller):
+  // ------------------------------------------------
   // In-order traversal recursively visits the left child first, then the current parent node,
   // and finally the right child.
   void traverseInOrder(void Function(T value) action) {
@@ -25,8 +25,9 @@ class BinaryNode<T> {
     rightChild?.traverseInOrder(action);
   }
 
+  // traverse every parent node with its children:
+  // ---------------------------------------------
   // get parent node then its first child then this child get its children then another child and its children
-
   // Pre-order traversal visits the parent node first, followed by the child nodes.
   void traversePreOrder(void Function(T value) action) {
     action(value);
@@ -34,6 +35,8 @@ class BinaryNode<T> {
     rightChild?.traversePreOrder(action);
   }
 
+  // traverse children then their parent node:
+  // -----------------------------------------
   // get from bottom to top (start from children and get their parent and go to another children to get
   // their parent and finally go to top parent)
 
