@@ -20,21 +20,21 @@ void testStack(){
   stack.push(2);
   stack.push(3);
   stack.push(4);
-  // print('after pushing from 1 to 4 >> $stack');
+  print('after pushing from 1 to 4 >> $stack');
 
   //------------------------------------------
 
   final element = stack.pop();
-  // print('then pop one item >> $element');
+  print('then pop one item >> $element');
   // print('************');
-  // print('after popping >> $stack');
+  print('after popping >> $stack');
 
   //-------------------------------------------
 
   // convert list to stack
-  const list = ['S', 'M', 'O', 'K', 'E'];
-  final smokeStack = Stack.of(list);
-  print(smokeStack);
+  // const list = ['S', 'M', 'O', 'K', 'E'];
+  // final smokeStack = Stack.of(list);
+  // print(smokeStack);
 
   // However, a stack’s purpose is to limit the number of ways to access your data,
   // and adopting interfaces such as Iterable would go against this goal by exposing

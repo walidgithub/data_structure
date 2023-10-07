@@ -66,7 +66,6 @@ class QueueLinkedList<E> implements Queue<E> {
 }
 
 // A ring-buffer-based implementation is good for queues with a fixed size.
-
 class QueueRingBuffer<E> implements Queue<E> {
   QueueRingBuffer(int length) : _ringBuffer = RingBuffer<E>(length);
 

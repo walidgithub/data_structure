@@ -1,5 +1,4 @@
-// A doubly linked list is simply a linked list in which nodes also contain
-// a reference to the previous node.
+// A doubly linked list is simply a linked list in which nodes also contain a reference to the previous node.
 
 /*
 Doubly linked list can be used in navigation systems where both forward and backward traversal is required.
@@ -60,7 +59,7 @@ class DoublyLinkedList<E> extends Iterable<E> implements LinkedList<E> {
     // convert the value to a node
     final newNode = Node(value: value, next: head);
 
-    // update the pointers at the tail of the list
+    // update the pointers at the head of the list
     if (isEmpty) {
       tail = newNode;
     } else {

@@ -1,12 +1,11 @@
 
 import 'package:dart_data_structure/II elemntry%20data%20structure/04-%20queue/queue_class.dart';
 
-void testQueues(){
-  // Queues use FIFO(first-in-first-out)
-  // Notice that the queue only cares about removal from the front and insertion at the back.
-  // it guarantees a fair order.
+// Queues use FIFO(first-in-first-out)
+// Notice that the queue only cares about removal from the front and insertion at the back.
+// it guarantees a fair order.
 
-  /*
+/*
   Example for queue is putting the requests to a server
 
 So to fix this, we actually implemented a queue on the client.
@@ -20,6 +19,7 @@ By putting the requests into a queue, we could cap the maximum number of concurr
  A queue was a perfect structure for this system!
   */
 
+void testQueueList(){
   final queue = QueueList<String>();
   queue.enqueue('Ray');
   queue.enqueue('Brian');
@@ -62,5 +62,4 @@ void testQueueRingBuffer() {
 
   queue.peek;
   print(queue); // [Brian, Eric]
-
 }
