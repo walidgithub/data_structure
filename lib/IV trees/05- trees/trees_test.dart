@@ -10,9 +10,9 @@ void testTrees() {
     final tea = TreeNode('tea');
     final coffee = TreeNode('coffee');
     final chocolate = TreeNode('cocoa');
-    final blackTea = TreeNode('black');
-    final greenTea = TreeNode('green');
-    final chaiTea = TreeNode('chai');
+    final blackTea = TreeNode('black tea');
+    final greenTea = TreeNode('green tea');
+    final chaiTea = TreeNode('chai tea');
     final soda = TreeNode('soda');
     final milk = TreeNode('milk');
     final gingerAle = TreeNode('ginger ale');
@@ -46,7 +46,7 @@ void testTrees() {
   final tree = makeBeverageTree();
   tree.forEachLevelOrder((node) => print(node.value));
 
-  // search in treen
+  // search in trees
   // final tree = makeBeverageTree();
   //
   // final searchResult1 = tree.search('ginger ale');
@@ -54,6 +54,4 @@ void testTrees() {
   //
   // final searchResult2 = tree.search('water');
   // print(searchResult2?.value); // null
-
-
 }

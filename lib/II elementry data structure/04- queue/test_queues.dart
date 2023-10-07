@@ -1,5 +1,5 @@
 
-import 'package:dart_data_structure/II elemntry%20data%20structure/04-%20queue/queue_class.dart';
+import 'package:dart_data_structure/II elementry%20data%20structure/04-%20queue/queue_class.dart';
 
 // Queues use FIFO(first-in-first-out)
 // Notice that the queue only cares about removal from the front and insertion at the back.

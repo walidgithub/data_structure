@@ -30,7 +30,7 @@ Min-priority, where the element at the front is always the smallest.
 
 
 
-import 'package:dart_data_structure/II elemntry%20data%20structure/04-%20queue/queue_class.dart';
+import 'package:dart_data_structure/II elementry%20data%20structure/04-%20queue/queue_class.dart';
 
 import '../11- heaps/heaps_class.dart';
 

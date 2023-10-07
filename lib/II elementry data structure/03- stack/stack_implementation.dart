@@ -12,7 +12,7 @@
 // ** Search and conquer algorithms, such as finding a path out of a maze, use stacks to facilitate backtracking.
 
 
-import 'package:dart_data_structure/II elemntry%20data%20structure/03-%20stack/stack_class.dart';
+import 'package:dart_data_structure/II elementry%20data%20structure/03-%20stack/stack_class.dart';
 
 void testStack(){
   final stack = Stack<int>();

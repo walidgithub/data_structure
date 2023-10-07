@@ -39,7 +39,7 @@ class TreeNode<T> {
     }
   }
 
-  // if want to return parents first then get the children we will use queueStack
+  // if you want to return parents first then get the children we will use queueStack
   void forEachLevelOrder(void Function(TreeNode<T> node) performAction) {
     final queue = QueueStack<TreeNode<T>>();
     performAction(this);
@@ -62,6 +62,4 @@ class TreeNode<T> {
     });
     return result;
   }
-
-
 }

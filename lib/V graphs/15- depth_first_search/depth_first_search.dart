@@ -6,7 +6,7 @@
     You can pop to return to a previous level if you reach a dead end.
 */
 
-import '../../II elemntry data structure/03- stack/stack_class.dart';
+import '../../II elementry data structure/03- stack/stack_class.dart';
 import '../13-graphs/graphs.dart';
 
 extension DepthFirstSearch<E> on Graph<E> {
