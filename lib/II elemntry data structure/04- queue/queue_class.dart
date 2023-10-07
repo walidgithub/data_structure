@@ -41,7 +41,11 @@ class QueueList<E> implements Queue<E> {
 }
 
 // the most efficient way to implement queues is using linked lists
-// queue liked list is a list of double linked list and using doubly linked_list
+// queue linked list is a list of double linked list and using doubly linked_list
+// *** because:
+// Doubly linked list can be used in navigation systems where both forward and backward traversal is required.
+// It can be used to implement different tree data structures.
+// It can be used to implement undo/redo operations.
 class QueueLinkedList<E> implements Queue<E> {
   final _list = DoublyLinkedList<E>();
 
