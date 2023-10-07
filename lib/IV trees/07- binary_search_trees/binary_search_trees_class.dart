@@ -1,16 +1,17 @@
-// big o for binary trees in O(log n) for insert or remove or contains in balanced tree
-// big o for binary trees in O(n) for insert or remove or contains in unbalanced tree
+// big o for binary search trees in O(log n) for insert or remove or contains in balanced tree
+// big o for binary search trees in O(n) for insert or remove or contains in unbalanced tree
 
 /*
 A binary search tree, or BST, is a data structure that facilitates fast lookup, insert and removal operations.
  Consider the following decision tree where picking a side forfeits all the possibilities of the other side,
- cutting the problem in half:
+ cutting the problem in half.
 */
 
 // Rules:
 // 1- The value of a left child must be less than the value of its parent.
 // 2- Consequently, the value of a right child must be greater than or equal to the value of its parent.
-
+// like: 9 is the parent node so left child can be 8 and right child can be 10 or 9
+// [parent is 9 >>> L child -> 8 , R child -> 9 or 10 for example]
 // so it is ordered
 
 

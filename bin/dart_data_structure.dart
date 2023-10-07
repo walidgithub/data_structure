@@ -5,6 +5,7 @@ import 'package:dart_data_structure/II%20elementry%20data%20structure/03-%20stac
 import 'package:dart_data_structure/II%20elementry%20data%20structure/04-%20queue/test_queues.dart';
 import 'package:dart_data_structure/IV%20trees/05-%20trees/trees_test.dart';
 import 'package:dart_data_structure/IV%20trees/06-%20binary_trees/binary_trees_test.dart';
+import 'package:dart_data_structure/IV%20trees/07-%20binary_search_trees/binary_search_trees_test.dart';
 import 'package:dart_data_structure/V%20graphs/greedy_or_dijkstra%E2%80%99s_algorithm/test_greedy_or_dijkstra_algorithm.dart';
 
 void main(List<String> arguments) {
@@ -26,8 +27,8 @@ void main(List<String> arguments) {
   // testQueueRingBuffer();
 
   // testTrees();
-  testBinaryTrees();
-  // testBinarySearchTrees();
+  // testBinaryTrees();
+  testBinarySearchTrees();
   // testAVLTrees();
 
   // testTries();
