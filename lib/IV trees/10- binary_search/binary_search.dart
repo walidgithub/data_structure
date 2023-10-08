@@ -46,6 +46,6 @@ extension SortedList<E extends Comparable<dynamic>> on List<E> {
 /*
 1- Binary search is only a valid algorithm on sorted collections.
 2- Sometimes it may be beneficial to sort a collection to leverage the binary search capability for looking up elements.
-3- The indexOf method on List uses a linear search with O(n) time complexity. Binary search has O(log n) time complexity, which scales much better for large data sets if you are doing repeated lookups.
-    Prev
+3- The indexOf method on List uses a linear search with O(n) time complexity. Binary search has O(log n) time complexity,
+    which scales much better for large data sets if you are doing repeated lookups.
  */

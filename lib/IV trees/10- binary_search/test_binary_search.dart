@@ -8,6 +8,6 @@ void testBinarySearch() {
     final search31 = list.indexOf(31);
     final binarySearch31 = list.binarySearch(31);
 
-    print('indexOf: $search31');
-    print('binarySearch: $binarySearch31');
+    print('search using indexOf: $search31');
+    print('search using binarySearch: $binarySearch31');
 }

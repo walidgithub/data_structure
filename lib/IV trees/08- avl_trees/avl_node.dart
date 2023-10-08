@@ -1,5 +1,3 @@
-// Copyright (c) 2022 Razeware LLC
-// For full license & permission details, see LICENSE.
 
 class AvlNode<T> {
   AvlNode(this.value);

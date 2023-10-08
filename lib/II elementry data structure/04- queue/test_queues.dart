@@ -17,7 +17,7 @@ By putting the requests into a queue, we could cap the maximum number of concurr
  to our server. This fixed big users bringing down our server and this made Larry much happier.
  This also kept our requests in order and allowed us to hold the requests for processing.
  A queue was a perfect structure for this system!
-  */
+*/
 
 void testQueueList(){
   final queue = QueueList<String>();

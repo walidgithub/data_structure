@@ -63,8 +63,8 @@ class PriorityQueue<E extends Comparable<dynamic>> implements Queue<E> {
 /*
  --Time Complexity Analysis
  For insertion, we may have to heapify the entire heap data structure.
- So, while the insertion process only takes O(1) time, the heapify process will take O(logn).
- The same goes for deletion. We know where the max priority value is, but remaking the heap still takes O(logn) time.
+ So, while the insertion process only takes O(1) time, the heapify process will take O(log n).
+ The same goes for deletion. We know where the max priority value is, but remaking the heap still takes O(log n) time.
  These are guaranteed worst-case efficiency since a binary heap always guarantees a complete tree.
  The time complexity to extract the value from a priority queue is O(1) since we only need to peek at the root node of the heap.
- */
+*/
