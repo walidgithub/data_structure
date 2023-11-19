@@ -33,6 +33,18 @@ void main(List<String> arguments) {
   // testQueueLinkedList(); // navigation system back and forward examples (most efficient way is using doubly linked list)
   // testQueueRingBuffer(); // queues with a fixed size
 
+
+  /*
+  An example of where tree structure is used in real life is a company’s hierarchy.
+  each person (employee) has a boss all the way up to the CEO of a company.
+
+  Each person represents a node. A node at the bottom is called a leaf. The node at the top is called the root.
+  The root node doesn't have a parent, but it has two children.
+  Each of these children has two children of their own- leaves.
+  however, each node- including the root- could have as many children.
+  The leaf node, however, doesn't have any children as it is the lowest in the hierarchy.
+  */
+
   // testTrees(); // root node and parents and their children (node can has one or more child)
   // testBinaryTrees(); // unsorted binary tree (every node has two children) (perfect balanced, good enough balanced and unbalanced)
   // testBinarySearchTrees(); // sorted binary tree
