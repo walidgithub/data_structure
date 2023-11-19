@@ -158,7 +158,7 @@ class AdjacencyList<E> implements Graph<E> {
     Each vertex has its own row and column in the table. The cells where rows and columns intersect hold the edge weights.
     If any particular cell is empty, that is, if the weight is null,
     that means there is no edge between the row vertex and the column vertex.
- */
+*/
 class AdjacencyMatrix<E> implements Graph<E> {
   final List<Vertex<E>> _vertices = [];
   final List<List<double?>?> _weights = [];

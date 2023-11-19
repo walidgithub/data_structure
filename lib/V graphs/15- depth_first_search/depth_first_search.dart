@@ -6,6 +6,17 @@
     You can pop to return to a previous level if you reach a dead end.
 */
 
+/*
+  ** Key Points
+     - Depth-first search (DFS) is another algorithm to traverse or search a graph.
+     - DFS explores a branch as far as possible before backtracking to the next branch. branch by branch
+     - The stack data structure allows you to backtrack.
+     - you backtrack to complete the branch before you start on another branch
+     - A graph is said to have a cycle when a path of edges and vertices leads back to the source vertex.
+*/
+
+// here video to show difference between BFS and DFS https://www.youtube.com/watch?v=QH1WvzW6ErU
+
 import '../../II elementry data structure/03- stack/stack_class.dart';
 import '../13-graphs/graphs.dart';
 
@@ -70,13 +81,3 @@ extension CyclicGraph<E> on Graph<E> {
 }
 
 
-/*
-  ** Key Points
-     - Depth-first search (DFS) is another algorithm to traverse or search a graph.
-     - DFS explores a branch as far as possible before backtracking to the next branch. branch by branch
-     - The stack data structure allows you to backtrack.
-     - you backtrack to complete the branch before you start on another branch
-     - A graph is said to have a cycle when a path of edges and vertices leads back to the source vertex.
-*/
-
-// here video to show difference between BFS and DFS https://www.youtube.com/watch?v=QH1WvzW6ErU
