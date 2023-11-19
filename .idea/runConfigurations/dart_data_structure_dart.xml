@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="dart_data_structure.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" activateToolWindowBeforeRun="false" singleton="false">
+    <option name="filePath" value="$PROJECT_DIR$/bin/dart_data_structure.dart" />
+    <method v="2" />
+  </configuration>
+</component>

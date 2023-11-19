@@ -72,6 +72,7 @@ abstract class Graph<E> {
 /*
 ** Adjacency List
     The first graph implementation you’ll learn uses an adjacency list.
+    *
     For every vertex in the graph, the graph stores a list of outgoing edges.
 */
 class AdjacencyList<E> implements Graph<E> {
